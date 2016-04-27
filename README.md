@@ -9,6 +9,10 @@ Download the source code:
 
 	git clone https://github.com/mrexmelle/xxxresamp
 
+Enter xxxresamp directory
+
+	cd xxxresamp
+
 Compile and install it:
 	
 	make install
