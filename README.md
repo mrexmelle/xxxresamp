@@ -23,3 +23,9 @@ This will install the xxxresamp binary into `/usr/local/bin` directory.
 xxxresamp resamples the **xxxhdpi image file** into multiple image files for lower screen densities. The command should be composed to be like this:
 
 	xxxresamp <xxxhdpi image file>
+	
+# Example
+You can run the example by typing the following command from the project root directory:
+	
+	xxxresamp data/ic_search.png
+
