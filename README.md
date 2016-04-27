@@ -1,5 +1,5 @@
 
-[![Build Status](https://travis-ci.org/mrexmelle/conxt.svg?branch=master)](https://travis-ci.org/mrexmelle/conxt)
+[![Build Status](https://travis-ci.org/mrexmelle/conxt.svg?branch=master)](https://travis-ci.org/mrexmelle/xxxresamp)
 
 # Description
 xxxresamp is a tool that resamples an image designated for xxxhdpi screen density into images with multiple lower dpi screen densities.
