@@ -102,7 +102,7 @@ NSImage * resample_image(NSImage * aOriginalImage, double aFactor)
     [newImage lockFocus];
     [aOriginalImage drawInRect:r
         fromRect:NSZeroRect
-        operation:NSCompositeSourceOver
+        operation:NSCompositingOperationSourceOver
         fraction:1.0];
     [newImage unlockFocus];
     
