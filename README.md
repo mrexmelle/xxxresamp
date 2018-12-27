@@ -1,5 +1,6 @@
 
 [![Build Status](https://travis-ci.org/mrexmelle/xxxresamp.svg?branch=master)](https://travis-ci.org/mrexmelle/xxxresamp)
+[![CodeFactor](https://www.codefactor.io/repository/github/mrexmelle/xxxresamp/badge)](https://www.codefactor.io/repository/github/mrexmelle/xxxresamp)
 
 # Description
 xxxresamp is a tool that resamples an image designated for xxxhdpi screen density into images with multiple lower dpi screen densities.
