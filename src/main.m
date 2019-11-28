@@ -59,27 +59,27 @@ int main(int argc, char * argv [])
         // build for xxhdpi
         NSImage * xxhdpiImg=resample_image(img, XXXHDPI_TO_XXHDPI);
         newFileName=get_new_filename(filename, @"xxhdpi");
-        save_to_file(xxhdpiImg, NSPNGFileType, newFileName);
+        save_to_file(xxhdpiImg, NSBitmapImageFileTypePNG, newFileName);
         
         // build for xhdpi
         NSImage * xhdpiImg=resample_image(img, XXXHDPI_TO_XHDPI);
         newFileName=get_new_filename(filename, @"xhdpi");
-        save_to_file(xhdpiImg, NSPNGFileType, newFileName);
+        save_to_file(xhdpiImg, NSBitmapImageFileTypePNG, newFileName);
         
         // build for hdpi
         NSImage * hdpiImg=resample_image(img, XXXHDPI_TO_HDPI);
         newFileName=get_new_filename(filename, @"hdpi");
-        save_to_file(hdpiImg, NSPNGFileType, newFileName);
+        save_to_file(hdpiImg, NSBitmapImageFileTypePNG, newFileName);
         
         // build for mdpi
         NSImage * mdpiImg=resample_image(img, XXXHDPI_TO_MDPI);
         newFileName=get_new_filename(filename, @"mdpi");
-        save_to_file(mdpiImg, NSPNGFileType, newFileName);
+        save_to_file(mdpiImg, NSBitmapImageFileTypePNG, newFileName);
         
         // build for ldpi
         NSImage * ldpiImg=resample_image(img, XXXHDPI_TO_LDPI);
         newFileName=get_new_filename(filename, @"ldpi");
-        save_to_file(ldpiImg, NSPNGFileType, newFileName);
+        save_to_file(ldpiImg, NSBitmapImageFileTypePNG, newFileName);
     }
     
 	return 0;
